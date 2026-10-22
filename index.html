@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <a href="https://github.com/nanba007" target="_blank"
+           rel="noopener noreferrer" class="logo">
+            GitHub ↗
+        </a>
+
+        <button class="menu-btn" id="menu-btn"
+                aria-label="Open navigation" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav id="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#approach">How I Work</a>
+            <a href="#contact">Contact</a>
+            <button id="theme-btn" class="theme-btn"
+                    aria-label="Switch colour theme">🌙</button>
+        </nav>
+    </header>
+
+    <!-- 1. Home -->
+    <section id="home" class="hero">
+        <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+        <h1>Hi, I'm <span>Rakesh</span></h1>
+        <h2>Student | Aspiring Developer</h2>
+        <p>
+            I am learning programming and web development by building
+            simple projects and improving my skills every day.
+        </p>
+        <a href="#about" class="btn">Explore More</a>
+    </section>
+
+    <!-- 2. About -->
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="card">
+            <p>
+                I am a second-year B.Sc. Information Technology student
+                at KG College of Arts and Science. I am interested in
+                programming, frontend development, and creating useful
+                software projects.
+            </p>
+        </div>
+    </section>
+
+    <!-- 3. Skills -->
+    <section id="skills" class="section">
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+            <div class="skill">
+                <div class="skill-info">
+                    <span>HTML</span>
+                    <span>60%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 60%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>CSS</span>
+                    <span>60%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 60%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>JavaScript</span>
+                    <span>60%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 60%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>C Programming</span>
+                    <span>60%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 60%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>Python</span>
+                    <span>60%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 60%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. How I Work & Current Goal -->
+    <section id="approach" class="section">
+        <h2 class="section-title">How I Work &amp; Current Goal</h2>
+
+        <div class="goal-container">
+            <div class="goal-card">
+                <div class="goal-icon">🧩</div>
+                <h3>How I Work</h3>
+                <p>
+                    I learn by practising, breaking problems into smaller
+                    steps, and improving my projects through feedback.
+                </p>
+            </div>
+
+            <div class="goal-card">
+                <div class="goal-icon">🎯</div>
+                <h3>Current Goal</h3>
+                <p>
+                    Build a strong foundation in programming, frontend
+                    development, and software project development.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Contact -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="card contact-card">
+            <p>Feel free to contact me or visit my GitHub profile.</p>
+
+            <p>
+                <strong>Email:</strong>
+                <a href="mailto:25bit164@kgcas.com">
+                    25bit164@kgcas.com
+                </a>
+            </p>
+
+            <p>
+                <strong>GitHub:</strong>
+                <a href="https://github.com/nanba007"
+                   target="_blank" rel="noopener noreferrer">
+                    github.com/nanba007
+                </a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="year"></span> My Portfolio. Made with HTML, CSS &amp; JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
